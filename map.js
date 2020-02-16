@@ -1,7 +1,7 @@
   var elChild = document.getElementById('elChild');
 
   $(document).ready(function() {
-    $('#my-unique-link').on('click', function(e) {
+    $('.zipClick').on('click', function(e) {
       
       var zipCode = $(this).attr('id');
       console.log(id);
