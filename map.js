@@ -1,7 +1,7 @@
   var elChild = document.getElementById('elChild');
 
   $(document).ready(function() {
-    $('.zipClick').on('click', function(e) {
+    $('[class^=zipclick]').on('click', function(e) {
       
       var zipCode = $(this).attr('id');
       console.log(id);
